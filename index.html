@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
-    <!--Tailwind & Daisy UI v4 cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Tailwind & Daisy UI update.V cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,18 +27,21 @@
     <!-- header -->
     <header class="bg-[#FFF9F4FF] sora">
         <nav class="lg:max-w-7xl mx-auto px-6 flex items-center justify-between py-7">
+            <!-- nab son 1 -->
             <div class="flex items-center gap-x-3">
                 <div>
-                    <img class="block" src="AS1/A-assets/logo-footer.png " alt="">
+                    <img class="block" src="assets/logo-footer.png " alt="">
                 </div>
                 <p class="text-2xl hidden lg:block">Browse<span class="text-yellow-300">4</span>Pets</p>
             </div>
+            <!-- nab son 2 -->
             <div class="space-x-8 text-xl hidden lg:block">
                 <a href="">Find a pet</a>
                 <a href="">Breeds</a>
                 <a href="">Contact us</a>
             </div>
-            <div class=" flex items-center">
+            <!-- nab son 3 -->
+            <div class="flex items-center">
                 <div class="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden lg:block size-6 mr-4">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
@@ -52,32 +55,51 @@
                 Login
                 </button>
                 </div>
-                <button class="bg-[#FFF9F4FF] hidden lg:block border bg-yellow-300 px-8 py-2.5 text-xl rounded-lg">
+                <button class="bg-[#FFF9F4FF] hidden lg:block bg-yellow-300 px-8 py-2.5 text-xl rounded-lg">
                     Register
                 </button>
             </div>
-            <div class="lg:hidden ">
-            <button class="btn btn-square btn-ghost">
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                class="inline-block h-10 w-10 stroke-current">
-                <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-                <!-- <div class="hidden hover:block"> <li><a>Item 1</a></li>
-                <li><a>Item 2</a></li></div> -->
-            </button>
+            <!-- nab son 4 -->
+            <div class="lg:hidden flex justify-center">
+                <details class="dropdown dropdown-left">
+                <summary class="btn -mr-5 bg-[#FFF9F4] border-none">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+           fill="none"
+           viewBox="0 0 24 24"
+           class="inline-block h-8 w-8 stroke-current">
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </summary>
+                <ul class="menu left-0 dropdown-content bg-base-100 rounded-box z-10 w-52 p-2 shadow">
+                <li><a href="#">Find a pet</a></li>
+                <li><a href="#">Breeds</a></li>
+                <li><a href="#">Contact us</a></li>
+                </ul>
+            </details>
             </div>
         </nav>
     </header>
     <!-- main part -->
-    <main class="lg:max-w-7xl mx-auto px-6">
-        
+    <main class="lg:max-w-7xl mx-auto px-6 bg-[url('')]">
+        <!-- banner -->
+        <section class="mt-8 lg:mt-16 lg:h-[700px] lg:bg-[url('assets/cat-big.png')] bg-center text-left flex lg:flex-row flex-col">
+            <div class="lg:w-1/2">
+                <h1 class="lg:text-6xl text-3xl">
+                Pamper Your Pet, Because They Deserve the Bes
+                </h1>
+                <p class="sora lg:my-5 my-3 lg:text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="bg-[#FFF9F4FF] bg-yellow-300 px-8 py-2.5 text-xl rounded-lg sora ">
+                    Find a pet
+                </button>
+            </div>
+            <div class="lg:hidden">
+                <img src="assets/cat-big.png" alt="">
+            </div>
+        <div class="bg-[url(/img/mountains.jpg)] ..."></div>
+        </section>
     </main>
     <!-- footer -->
     <footer>
