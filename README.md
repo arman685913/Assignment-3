@@ -51,29 +51,30 @@ Follow these steps to run the project locally:
 
 ---
 
-📸 Screenshots
-🏠 Home Page
+## 📸 Screenshots
+   **🏠 Home Page**
 
-(Add your screenshot here)
+![Home Page](assets/cat-big.png)
 
-📂 Portfolio Section
+---
 
-(Add your screenshot here)
+## 👤 Author
 
-👤 Author
+**Arman Farazi**
 
-Arman Farazi
+---
 
-🌐 Live Demo
+## 🌐 Live Demo
 
-💻 GitHub Profile
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://arman685913.github.io/Assignment-3/)  
 
-📜 License
+---
+
+## 📜 License
 
 This project is available for personal and educational use.
 For commercial use, please contact the author.
 
-![Home Page](assets/cat-big.png)
 
 ---
 
